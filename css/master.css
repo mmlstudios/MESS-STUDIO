@@ -1,0 +1,63 @@
+body,
+html {
+    height: 100%;
+    background-color: black;
+    border: 0%;
+    margin: 0%;
+
+}
+
+#logo-div {
+    margin: 30%;
+    margin-top: 12.5%;
+    margin-bottom: 0%;
+    width: 40%;
+    line-height: 1;
+    float: center;
+}
+
+#logo {
+    width: 100%;
+}
+
+nav {
+    color: white;
+    text-align: center;
+    line-height: 1;
+    font-family: verdana;
+    margin-top: 9%;
+    float: center;
+}
+
+li {
+    display: inline;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/!--------------------------------------------------------/
+
+#products{
+    width: 100%;
+}
+
+h1 {color: white; float:left;}
+
+#asfalt {width: 100%; float: left;
+    
+}
+
+#backbtn{width: 20%;
+transform: translate(360%,90%)}
+
+#products {position:relative;
+transform: translate(-100%, -450px);
+display: none;
+line-height: 1;}
+
