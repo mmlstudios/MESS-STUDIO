@@ -47,6 +47,7 @@ li {
     margin-left: 2%;
     margin-right: 2%;
     background-color: black;
+    opacity: 0.8;
     
 }
 
@@ -62,11 +63,12 @@ h1 {color: white; float:left;}
     
 }
 
-#backbtn{width: 20%;
-transform: translate(360%,90%)}
+#backbtn{width: 100px; height: 100px ; position: relative; float: left; transform: translate(1280%, 100%);
+    
+}
 
 #products {position:relative;
-transform: translate(-100%, -450px);
+transform: translate(-100%, -630px);
 display: none;
 line-height: 1;}
 
@@ -83,7 +85,7 @@ line-height: 1;}
     width: 40%;
     line-height: 1;
     float: center;
-    border: 4px solid white;
+    border: 5px solid white;
     padding: 3%;
     background-color: black;
     opacity: 0.8
