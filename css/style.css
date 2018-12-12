@@ -1,0 +1,48 @@
+#logo {
+    background-color: black;
+}
+
+#logo img {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    background-color: black;
+    color: #444;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.box {}
+
+#picture {
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 7%;
+    background-color: black;
+    font-family: roboto;
+}
+
+h3 {
+    padding: 3%;
+    font-size: 20px;
+    font-family: verdana
+}
