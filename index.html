@@ -1,54 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <meta name="description" content="Mess Studio, Unisex streetwear label of Denmark, frontpage, streetwear, Urban, Unisex">
-
-    <!-- Refreshing the homepage every 30 sec -->
-    <meta http-equiv="refresh" content="30">
-
+    <meta name="author" content="Thanh Nhân, Mads Laursen, Rasmus Herning, Søren Jakobson">
+<!-- beskrivelse af Mess Studio -->
+    <meta name="description" content="Mess Studio, Unisex streetwear label of Denmark, frontpage, streetwear, Urban, Unisex, Product, About us, About, Lifestyle, street fashion, urban fashion, urban wear, urban clothes, cap, street urban cap, minimalistic">
     <meta name="keywords" content="HTML, CSS, Javascript, JQuery">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
-    
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/master.css">
-    
-    <title>Frontpage</title>
+    <title>MESS STUDIO</title>
 </head>
-<<<<<<< HEAD
-    <body>
-        <div id="logo-div">
-        <img src="images/mess-black.jpg" id="logo">
-        </div>
-
-        <nav>
-            <ul>
-                <li id="leftToRight">PRODUCTS hello</li>
-                <li>JOIN THE MOVEMENT bitches</li>
-                <li>CONTACT</li>
-            </ul>
-        </nav>
-        <article id="products" class="lR">
-            <h1>Products</h1>
-            <img src="images/mess-black.jpg" id="backbtn">
-            <img src="images/asfalt.jpg" id="asfalt">
-            <img src="images/asfalt.jpg" id="asfalt">
-            <img src="images/asfalt.jpg" id="asfalt">
-            <img src="images/asfalt.jpg" id="asfalt">
-            <img src="images/asfalt.jpg" id="asfalt">
-            <img src="images/asfalt.jpg" id="asfalt">
-            <img src="images/asfalt.jpg" id="asfalt">
-        </article>
-
-        <script src="slidein.js"></script>
-    </body>
-=======
 
 <body>
     <div id="logo-div">
@@ -58,25 +24,141 @@
     <nav>
         <ul>
             <li id="leftToRight">PRODUCTS</li>
-            <li>JOIN THE MOVEMENT</li>
-            <li>CONTACT</li>
+            <li id="bottomToTop">JOIN THE MOVEMENT</li>
+            <li id="rightToLeft">CONTACT</li>
         </ul>
     </nav>
+    <!----------------------------products----------------------------->
+    <article id="product-page" class="lR">
+        <div id="logo-products">
+            <img src="images/mess-black.jpg">
+        </div>
+        <h2>PRODUCTS</h2>
+        <div class="wrapper-products">
+            <div class="box">
+                <h3>MESS STUDIO CAP</h3>
+                <img id="picture" src="images/cap%20kopi.png">
+            </div>
+            <div class="box">
+                <h3>SMOKING KILLS</h3>
+                <img id="picture" src="images/smoking.jpg">
+            </div>
+            <div class="box">
+                <h3>MILITARY BELT</h3>
+                <img id="picture" src="images/belt.jpg">
+            </div>
+            <div class="box">
+                <h3>BRIGHT HOODIE</h3>
+                <img id="picture" src="images/hoodie.jpg">
+            </div>
+            <div class="box">
+                <h3>SOCIAL MEDIA KILLS</h3>
+                <img id="picture" src="images/socialmedia.png">
 
-    <article id="products" class="lR">
-        <h1>Products</h1>
-        <img src="/images/mess-black.jpg" id="backbtn">
-        <img src="images/asfalt.jpg" id="asfalt">
-        <img src="images/asfalt.jpg" id="asfalt">
-        <img src="images/asfalt.jpg" id="asfalt">
-        <img src="images/asfalt.jpg" id="asfalt">
-        <img src="images/asfalt.jpg" id="asfalt">
-        <img src="images/asfalt.jpg" id="asfalt">
-        <img src="images/asfalt.jpg" id="asfalt">
-        <img src="images/asfalt.jpg" id="asfalt">
+            </div>
+            <div class="box">
+                <h3>SHORT PANT</h3>
+                <img id="picture" src="images/shorts.jpg">
+
+            </div>
+        </div>
+        <img src="images/left-arrow.png" id="backbtn-product">
     </article>
+
+    <!----------------------------contact----------------------------->
+
+    <article id="contact-page" class="Rl">
+        <section id="contact">
+            <img src="images/mess-black.jpg" id="contact-logo" alt="mess-logo">
+        </section>
+        <div class="container">
+            <form action="action_page.php">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="Name" placeholder="Your name...">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email...">
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Which subject...">
+
+
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write something..." style="height:200px"></textarea>
+
+                <input type="submit" value="Send">
+            </form>
+        </div>
+
+        <div id="facebook">
+            <a href="https://www.facebook.com/MESSStudio/"><img src="images/facebookroed.png" alt="facebook"></a>
+        </div>
+
+        <div id="instagram">
+            <a href="https://www.instagram.com/messstudio/">
+            <img src="images/instagram.png" alt="instagram"></a>
+        </div>
+
+        <img src="images/left-arrow.png" id="backbtn-contact">
+
+    </article>
+
+    <!-----------------------------about----------------------------->
+
+    <article id="about-page" class="bT">
+        <section id="teaser-section">
+            <video id="teaser-vid">
+            <source src="videos/Mess-Studio-sound.mp4" type="video/mp4">
+          </video>
+        </section>
+        <section id="mess-crew">
+            <img src="images/mess-studio-crew.jpg">
+        </section>
+        <section id="heroimg-sect">
+            <img src="images/dood.jpg">
+            <p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.</p>
+        </section>
+
+        <section id="infobox-1">
+            <div>
+                <video id="infobox-1-vid" controls>
+                    <source src="videos/Maalgruppe.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div id="infobox-1-p">
+                <img src="images/rightpicd.jpg">
+                <p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.</p>
+            </div>
+        </section>
+
+        <section id="infobox-2">
+            <div id="infobox-2-p">
+                <img src="images/left-picd.jpg">
+                <p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.</p>
+            </div>
+            <div>
+                <video id="infobox-2-vid" controls>
+                    <source src="videos/Unik.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section id="heroimg-sect-1">
+            <img src="images/Mess4.jpg">
+            
+        </section>
+
+        <img src="images/down.png" id="backbtn-about">
+        
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/up.png" id="bcktop"></button>
+    </article>
+
+
+
 
     <script src="slidein.js"></script>
 </body>
->>>>>>> master
+
 </html>

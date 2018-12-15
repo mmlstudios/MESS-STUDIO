@@ -1,6 +1,7 @@
 body,
 html {
     background-image: url(../images/skaterpark.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
     background-color: black;
@@ -8,24 +9,22 @@ html {
     margin: 0%;
 }
 
-
-
-/*
 #logo-div {
-    margin: 30%;
-    margin-top: 12.5%;
-    margin-bottom: 0%;
-    width: 40%;
-    line-height: 1;
+    padding: 28.5%;
+    padding-top: 10%;
+    padding-bottom: 0%;
+    width: 37%;
     float: center;
+
 }
 
 #logo {
     width: 100%;
-   
+    border: 3px solid white;
+    padding: 5.5%;
+    background-color: black;
+    opacity: 0.8;
 }
-
-*/
 
 
 nav {
@@ -35,7 +34,7 @@ nav {
     font-family: verdana;
     margin-top: 9%;
     float: center;
-    
+
 }
 
 li {
@@ -43,54 +42,325 @@ li {
     padding: 1%;
     padding-left: 2%;
     padding-right: 2%;
-    border: 3px solid;
+    border: 1px solid;
     border-color: white;
     border-radius: 5%;
     margin-left: 2%;
     margin-right: 2%;
-    background-color: black;
-    opacity: 0.8;
-    
+    cursor: pointer;
 }
 
-/!--------------------------------------------------------/
-
-#products{
+/---------------------pages---button----------------------/ 
+#about-page {
     width: 100%;
 }
-h1 {color: white; float:left;}
 
-#asfalt {width: 100%; float: left; 
+#myBtn {display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+width: 7%;
+transform: translate(0%, 170%)}
+
+#bcktop {width: 100%;}
+
+#backbtn-about {
+    width: 5%;
+    transform: translate(75%, -5950%)
 }
 
-#backbtn{width: 100px; height: 100px ; position: relative; float: left; transform: translate(1280%, 100%);
-    
+#backbtn-contact {
+    width: 5%;
+    position: absolute;
+    transform: translate(75%, -950%);
+    cursor: pointer;
 }
 
-#products {position:relative;
-transform: translate(-100%, -630px);
-display: none;
-line-height: 1;}
+#backbtn-product {
+    width: 5%;
+    position: absolute;
+    transform: translate(75%, -3630%);
+    cursor: pointer;
+}
+
+#product-page {
+    width: 100%;
+    position: relative;
+    transform: translate(-100%, -19%);
+    background-color: black;
+    display: none;
+}
+
+#about-page {
+    position: relative;
+    transform: translate(0%, 5%);
+    display: none;
+}
+
+#contact-page {
+    width: 100%;
+    position: relative;
+    transform: translate(100%, -66.2%);
+    display: none;
+    background-color: black;
+    background-image: url(../images/baggrund.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
+/---------------------------products---------------------------/ 
+#logo-products {
+    background-color: black;
+    width: 100%;
+}
 
-
-/*--------------------------------------------------------*/
-/*Frontpage !!*/
-
-#logo-div {
-    margin: 26.5%;
-    margin-top: 10%;
-    margin-bottom: 0%;
+#logo-products img {
     width: 40%;
-    line-height: 1;
-    float: center;
-    border: 5px solid white;
-    padding: 3%;
+    margin-left: 30%;
+    text-align: center;
     background-color: black;
-    opacity: 0.8;
+    padding-top: 10%;
+
 }
 
-#logo {
+.wrapper-products {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1%;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2%;
+    padding-bottom: 0%;
+    text-align: center;
+
+}
+
+#picture {
+    width: 95%;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 7%;
+    background-color: black;
+    font-family: roboto;
+}
+
+h3 {
+    padding: 3%;
+    font-size: 20px;
+    font-family: verdana
+}
+
+/-----------------------------about-----------------------------/ #teaser-section {
     width: 100%;
+    height: 797px;
+    position: absolute;
+    
+}
+
+#teaser-vid {
+    width: 96%;
+    padding-left: 2%;
+position: relative;
+}
+
+#mess-crew {
+    width: 100%;
+    height: 797px;
+    position: relative;
+}
+
+#mess-crew img {
+    width: 100%;
+    position: absolute;
+}
+
+#heroimg-sect {
+    width: 100%;
+    height: 797px;
+    transform: translate(0%, -18%);
+    position: relative;
+}
+
+#heroimg-sect img {
+    width: 100%;
+    filter: blur(1px);
+    position: relative;
+}
+
+
+#heroimg-sect p {
+    position: absolute;
+    transform: translate(46%, -310%);
+    color: white;
+    width: 50%;
+    background-color: grey;
+    font-family: verdana;
+    padding: 2%;
+    box-shadow: 0px 14px 26px 13px rgba(0, 0, 0, 0.45);
+}
+
+
+#infobox-1 {
+    width: 100%;
+    height: 797px;
+    transform: translate(0%, -30%);
+    position: relative;
+
+
+}
+
+#infobox-1-p {
+    float: left;
+    width: 50%;
+}
+
+#infobox-1-p img {
+    width: 100%;
+    height: 650px;
+}
+
+#infobox-1-p p {
+    position: absolute;
+    transform: translate(50%, -220%);
+    color: white;
+    width: 25%;
+    background-color: grey;
+    font-family: verdana;
+    padding: 2%;
+    box-shadow: 0px 14px 26px 13px rgba(0, 0, 0, 0.45);
+}
+
+#infobox-1-vid {
+    float: left;
+    width: 50%;
+    padding-top: 11%;
+    position: relative;
+}
+
+#infobox-2 {
+    width: 100%;
+    height: 797px;
+    transform: translate(0%, -40%);
+    position: relative;
+}
+
+#infobox-2-p {
+    float: left;
+    width: 50%;
+}
+
+#infobox-2-p img {
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+#infobox-2-p p {
+    position: absolute;
+    transform: translate(25%, -220%);
+    color: white;
+    width: 25%;
+    background-color: grey;
+    font-family: verdana;
+    padding: 2%;
+    box-shadow: 0px 14px 26px 13px rgba(0, 0, 0, 0.45);
+}
+
+#infobox-2-vid {
+    float: left;
+    width: 50%;
+    padding-top: 11%;
+    position: absolute;
+}
+
+#heroimg-sect-1 {
+    position: absolute;
+    width: 100%;
+    height: 797px;
+    transform: translate(0%, -66%);
+}
+
+#heroimg-sect-1 img {
+    width: 100%;
+    position: relative;
+}
+
+/-----------------------------contact------------------------------/ #contact {
+    width: 100%
+}
+
+#contact-logo {
+    float: center;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    position: relative;
+    padding: 2%;
+    padding-bottom: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1%;
+    margin-bottom: 3.5%;
+    resize: vertical;
+    font-family: verdana;
+}
+
+input[type=submit] {
+    position: relative;
+    background-color: white;
+    color: black;
+    padding: 3% 7%;
+    border: none;
+    cursor: pointer;
+    font-family: verdana
+}
+
+input[type=submit]:hover {
+    background-color: darkgrey;
+}
+
+.container {
+    position: relative;
+    padding-bottom: 3.5%;
+    color: white;
+    margin-top: 2%;
+    width: 35%;
+    margin-left: 4%;
+    margin-right: 5%;
+    font-family: verdana;
+}
+
+
+#facebook img {
+    position: absolute;
+    width: 4%;
+    margin-right: 2%;
+    margin-left: 2%;
+    transform: translate(2000%, -220%);
+}
+
+#instagram img {
+    position: absolute;
+    width: 4%;
+    margin-right: 2%;
+    margin-left: 2%;
+    transform: translate(2200%, -221%);
 }
