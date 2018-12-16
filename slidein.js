@@ -40,6 +40,22 @@ $(document).ready(function(){
 });
 
 
+$("#teaser-vid").prop('muted', true);
+
+$(".mute-video").click(function () {
+    if ($("#teaser-vid").prop('muted')) {
+        $("#teaser-vid").prop('muted', false);
+        $(this).addClass('unmute-video');
+
+    } else {
+        $("#teaser-vid").prop('muted', true);
+        $(this).removeClass('unmute-video');
+    }
+    console.log($("#teaser-vid").prop('muted'))
+});
+
+
+
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 

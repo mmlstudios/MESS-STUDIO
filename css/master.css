@@ -50,22 +50,32 @@ li {
     cursor: pointer;
 }
 
-/---------------------pages---button----------------------/ 
-#about-page {
+/---------------------pages---button----------------------/ #about-page {
     width: 100%;
 }
 
-#myBtn {display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: black; /* Set a background color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-width: 7%;
-transform: translate(0%, 170%)}
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: black;
+    /* Set a background color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    width: 7%;
+    transform: translate(20%, 100%)
+}
 
-#bcktop {width: 100%;}
+#bcktop {
+    width: 100%;
+}
 
 #backbtn-about {
     width: 5%;
@@ -112,8 +122,7 @@ transform: translate(0%, 170%)}
 }
 
 
-/---------------------------products---------------------------/ 
-#logo-products {
+/---------------------------products---------------------------/ #logo-products {
     background-color: black;
     width: 100%;
 }
@@ -163,13 +172,13 @@ h3 {
     width: 100%;
     height: 797px;
     position: absolute;
-    
+
 }
 
 #teaser-vid {
     width: 96%;
     padding-left: 2%;
-position: relative;
+    position: relative;
 }
 
 #mess-crew {
@@ -292,6 +301,37 @@ position: relative;
 #heroimg-sect-1 img {
     width: 100%;
     position: relative;
+}
+
+.mute-video {
+    transform: translate(2200%, -7670%);
+    background: url(../images/no-sound.png) no-repeat center;
+    background-size: 50px;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    text-indent: -999px;
+}
+
+.unmute-video {
+    background: url(../images/sound.png) no-repeat center;
+    background-size: 50px;
+}
+
+#facebook-about img {
+    position: absolute;
+    width: 6%;
+    margin-right: 2%;
+    margin-left: 2%;
+    transform: translate(1200%, 122%);
+}
+
+#instagram-about img {
+    position: absolute;
+    width: 6%;
+    margin-right: 2%;
+    margin-left: 2%;
+    transform: translate(1450%, 122%);
 }
 
 /-----------------------------contact------------------------------/ #contact {

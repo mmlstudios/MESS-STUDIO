@@ -10,17 +10,16 @@
     <meta name="description" content="Mess Studio, Unisex streetwear label of Denmark, frontpage, streetwear, Urban, Unisex, Product, About us, About, Lifestyle, street fashion, urban fashion, urban wear, urban clothes, cap, street urban cap, minimalistic">
     <meta name="keywords" content="HTML, CSS, Javascript, JQuery">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-
-
     </script>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>MESS STUDIO</title>
 </head>
 
 <body>
     <div id="logo-div">
-        <img id="logo" src="images/mess.gif" alt="MESS STUDIO">
+        <h1><img id="logo" src="images/mess.gif" alt="MESS STUDIO"></h1>
     </div>
 
     <nav>
@@ -30,7 +29,9 @@
             <li id="rightToLeft">CONTACT</li>
         </ul>
     </nav>
+    
     <!--                      -products-                     -->
+    
     <article id="product-page" class="lR">
         <div id="logo-products">
             <img src="images/mess-black.jpg" alt="MESS STUDIO">
@@ -111,7 +112,7 @@
 
     <article id="about-page" class="bT">
         <section id="teaser-section">
-            <video id="teaser-vid">
+            <video id="teaser-vid" autoplay loop>
             <source src="videos/Mess-Studio-sound.mp4" type="video/mp4">
           </video>
         </section>
@@ -158,6 +159,18 @@
         <img src="images/down.png" id="backbtn-about" alt="down">
 
         <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/up.png" id="bcktop" alt="up"></button>
+        
+        <button class="mute-video"></button>
+        
+         <div id="facebook-about">
+            <a href="https://www.facebook.com/MESSStudio/"><img src="images/facebookroed.png" alt="facebook"></a>
+        </div>
+
+        <div id="instagram-about">
+            <a href="https://www.instagram.com/messstudio/">
+            <img src="images/instagram.png" alt="instagram"></a>
+        </div>
+        
     </article>
 
 
